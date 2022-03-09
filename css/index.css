@@ -1,0 +1,21 @@
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#spoiler {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    background: gray;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 150%;
+}

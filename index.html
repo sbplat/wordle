@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wordle Answers</title>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/words.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <h1 class="center-block">Wordle Answers</h1>
+    <h3 class="center-block" id="datetext">date...</h3>
+    <div class="center-block" id="spoiler">
+        <p id="word">word...</p>
+    </div>
+    <br />
+    <h5 class="center-block">Alternatively, you can select a date and view the word for it</h5>
+    <input type="date" class="center-block" id="dateinput" min="2021-06-19" />
+    <br />
+    <h5 class="center-block">Or, you can enter a 5 letter word and view the date for it</h5>
+    <input type="text" class="center-block" id="wordinput" />
+    <h4 class="center-block" id="worddate">Enter a word to view the date for it</h4>
+</body>
+</html>
